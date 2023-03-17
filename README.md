@@ -5,6 +5,8 @@ This app runs on port 8081 and is deployed on this link:
 ```
 http://ec2-65-1-223-223.ap-south-1.compute.amazonaws.com:8081/
 ```
+![image](https://user-images.githubusercontent.com/106534693/225984605-b14949fe-a7a7-4614-9c20-8d2865fce9ce.png)
+
 ## CSV File Format
 The CSV file should have the following format:
 ```
@@ -14,7 +16,7 @@ Dumbledore,60,Paris
 Hermoine Granger,13,London
 Ron,14,Amsterdam
 ```
-The first row should contain the column headers, and each subsequent row should contain the data for each person.
+The first row should contain the column headers, and each subsequent row should contain the data for each person. 
 
 ## Conclusion:
 In this project, we have developed a Go program that reads data from a CSV file, parses it into a slice of structs, and serves the data as an HTML table through an HTTP server. We have used the encoding/csv and html/template packages to achieve this.
